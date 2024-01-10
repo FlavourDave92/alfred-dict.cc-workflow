@@ -93,13 +93,7 @@ class Dict:
                         "icon": "de_en.png",
                     }
                 )
-                # print('<item valid="yes" arg="%s">' % self.engWords[word_idx])
-                # print("<title>%s</title>" % self.engWords[word_idx])
-                # print("<subtitle>%s</subtitle>" % self.deWords[word_idx])
-                # print("<icon>de_en.png</icon>")
-                # print("</item>")
-
-        # print("</items>")
+                
         response = json.dumps({"items": results})
         sys.stdout.write(response)
 
